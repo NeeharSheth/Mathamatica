@@ -1,8 +1,7 @@
 function add_user(){
-  player1= document.getElementById("player1_input").value;
-  console.log(player1);
-    localStorage.setItem("player1",player1);
-    player2= document.getElementById("player2_input").value;
-    localStorage.setItem("player2",player2);
-    window.location= "game_page.html"
+    player1_name= document.getElementById("player1_input").value;
+    player2_name= document.getElementById("player2_input").value;
+    localStorage.setItem("player1",player1_name);
+    localStorage.setItem("player2",player2_name);
+    window.location="game_page.html";
 }
